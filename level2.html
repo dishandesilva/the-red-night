@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Level 002 | The Red Knight Game</title>
+    <meta name="description" content="Play Adventure Level 002 in The Red Knight Game and continue your mission.">
+    <meta name="keywords" content="The Red Knight, Red Knight, The Red Knight Game, Red Night, The Read Night, level 2">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="DS DE SILVA CREATIONS">
+    <meta property="og:title" content="Adventure Level 002 | The Red Knight Game">
+    <meta property="og:description" content="Take on Adventure Level 002 in The Red Knight Game.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="icon.ico">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Adventure Level 002 | The Red Knight Game">
+    <meta name="twitter:description" content="Play level 002 of The Red Knight Game.">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="icon.ico"/>
+</head>
+
+<body onkeyup="controller(event);" class="body">
+
+    <div class="loader-wrapper">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <div class="content hidden">
+
+    <div class="background2" id="background">
+        <div class="score" id="score">0</div>
+        <div class="s" id="s">Score :</div>
+        <img src="run1.png" class="boy" id="boy"/>
+        <p class="click1"><button class="click" onclick="window.location='index2.html';">Back</button></p>
+        <p class="click1"><button class="click" onclick="alert('YOU HAVE A MESSAGE FROM YOUR ANCESTORS!\n\nHEY RED KNIGHT YOU CAN NOT DIE, YOUR PEOPLE ARE WAITING FOR YOU! THERE ARE THREE ADVENTURE LEVELS AND THREE DIFFERENT TEAMS OF OPPONENTS. IN THESE ADVENTURE LEVELS ALL YOU HAVE TO DO IS WIN FROM THAT OBSTACLES AND TRAPS. WISH YOU ALL THE BEST, GO AND SHOW YOUR POWER!')">Red Notice!</button></p> 
+        <p class="click1"><button class="click" onclick="myFunction()">Instructions</button></p>   
+        <p class="click1"><button class="click" onclick="alert('\nPress OK to Continue')">Pause</button></p>
+    </div>
+
+    <div class = "b" id ="b">
+        
+        <img src="run2.png" class="boy" hidden/>
+        <img src="run3.png" class="boy" hidden/>
+        <img src="run4.png" class="boy" hidden/>
+        <img src="run5.png" class="boy" hidden/>
+        <img src="run6.png" class="boy" hidden/>
+        <img src="run7.png" class="boy" hidden/>
+        <img src="run8.png" class="boy" hidden/>
+        <img src="run9.png" class="boy" hidden/>
+        <img src="run10.png" class="boy" hidden/>
+
+        <img src="dead1.png" class="boy" hidden/>
+        <img src="dead2.png" class="boy" hidden/>
+        <img src="dead3.png" class="boy" hidden/>
+        <img src="dead4.png" class="boy" hidden/>
+        <img src="dead5.png" class="boy" hidden/>
+        <img src="dead6.png" class="boy" hidden/>
+        <img src="dead7.png" class="boy" hidden/>
+        <img src="dead8.png" class="boy" hidden/>
+        <img src="dead9.png" class="boy" hidden/>
+        <img src="dead10.png" class="boy" hidden/>
+
+        <img src="jump1.png" class="boy" hidden/>
+        <img src="jump2.png" class="boy" hidden/>
+        <img src="jump3.png" class="boy" hidden/>
+        <img src="jump4.png" class="boy" hidden/>
+        <img src="jump5.png" class="boy" hidden/>
+        <img src="jump6.png" class="boy" hidden/>
+        <img src="jump7.png" class="boy" hidden/>
+        <img src="jump8.png" class="boy" hidden/>
+        <img src="jump9.png" class="boy" hidden/>
+        <img src="jump10.png" class="boy" hidden/>
+            
+    </div>
+
+    <div class="end" id="end">
+        <dive>You Died!</dive>
+        <div>Score :</div>
+        <div id="endscore">0</div>
+        <button class="btn" onclick="reload();">Try Again</button>
+        <button class="btn" onclick="window.location='index2.html';">Main Menu</button>
+    </div>
+
+    <div class="win" id="win">
+        <dive>Congradulation! You won</dive>
+        <div class="level">Adventure Level 002 Completed.</div>
+        <div>Score :</div>
+        <div>5300</div>
+        <button class="btn" onclick="window.location='level3.html';">Adventure Level 003</button>
+        <button class="btn" onclick="reload();">Play Again</button>
+        <button class="btn" onclick="window.location='index2.html';">Main Menu</button>
+    </div>
+</div>
+    <script src="script2.js"></script>
+
+</body>
+
+</html>

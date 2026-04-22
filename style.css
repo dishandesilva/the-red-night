@@ -1,0 +1,490 @@
+.body{
+    margin: 0px;
+}
+
+.start{
+    position: absolute;
+    width: 100%;
+    height:100vh;
+    margin: 0px;
+    background-image: url(startback.jpg);
+    background-size: cover;
+    font-size: 100px;
+    font-weight: bold;
+    font-family:"sans-serif" ;
+    border: 20px;
+    border-color: red;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+}
+
+.blink {
+    font-size: 20px;
+    font-weight:lighter;
+    margin-top: 70px;
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: "Times New Roman";
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.stb{
+    font-family:Georgia;
+    width: 220px;
+    height: 220px;
+    background-color: red;
+    font-size: 48px;
+    font-weight: bold;
+    border: none;
+    border-radius: 150px;
+    cursor:pointer;
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 500ms;
+    opacity: 0.6;
+    margin-bottom: 20px;
+    visibility: visible;
+    box-shadow: 0 0 100px red;
+}
+
+.stb:hover {
+    width: 260px;
+    height: 260px;
+    font-size: 58px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0 0 600px red;
+}
+
+.b1{
+    width: 280px;
+    height: 50px;
+    font-size: 20px;
+    font-family:"Times New Roman";
+    color: black;
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    transition-duration: 500ms;
+    opacity: 0.5;
+    margin-bottom: 20px;
+    visibility: visible;
+}
+
+.b1:hover {
+    width: 350px;
+    font-size: 25px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0 0 15px white;
+}
+
+.more{
+    font-size: 16px;
+    font-weight:lighter;
+    color: white;
+    font-family:"Arial";
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more:hover{
+    font-size: 18px;
+    text-shadow: 0 0 20px red;
+}
+
+.copy{
+    font-size: 12px;
+    font-weight:lighter;
+    color: white;
+    font-family:"Arial";
+    margin-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.img{
+    width: 300px;
+    font-size: 40px;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    cursor:pointer;
+    transition-duration: 500ms;
+    opacity: 0.5;
+    border-radius: 10%;
+    visibility: visible;
+    box-shadow: 0 0 550px white;
+}
+
+.img:hover{
+    opacity: 0.8;
+    width: 400px;
+    transition-duration: 1s;
+    box-shadow: 0 0 600px red;
+}
+
+.btn2{
+    width: 500px;
+    height: 55px;
+    font-size: 35px;
+    font-family:"Times New Roman";
+    color: black;
+    border: none;
+    border-radius: 45px;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    transition-duration: 500ms;
+    opacity: 0.5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    visibility: visible;
+    box-shadow: 0 0 20px white;
+}
+
+.btn2:hover {
+    width: 570px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0 0 40px red;
+}
+
+.next{
+    font-size: 25px;
+    font-weight: bold;
+    font-family:"sans-serif";
+    margin-bottom: 5px;
+}
+
+.background1{
+    width: 100%;
+    height:100vh;
+    background-image: url("background1.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.background2{
+    width: 100%;
+    height:100vh;
+    background-image: url("background2.png");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.background3{
+    width: 100%;
+    height:100vh;
+    background-image: url("background3.png");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+}
+
+.score{
+    font-size: 46px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 240px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 20px white;
+}
+
+.s{
+    position: absolute;
+    font-size: 46px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    color: red;
+    text-shadow: 0 0 20px white;
+}
+
+.boy{
+    height:250px;
+    margin-top: 320px;
+    position: absolute;
+}
+
+.click1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-right: 25px;
+}
+
+.click{
+    font-family:"Times New Roman";
+    width:170px;
+    height: 45px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition-duration: 500ms;
+    border-radius: 70px;
+    opacity: 0.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    box-shadow: 0 0 15px red;
+}
+
+.click:hover {
+    width:185px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0 0 15px white;
+}
+
+.end{
+    width: 100%;
+    height:100vh;
+    background-image: url("overback.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    font-family: "Times New Roman";
+    visibility: hidden ;
+}
+
+.btn{
+    font-family:"Times New Roman";
+    width:400px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition-duration: 500ms;
+    border-radius: 70px;
+    opacity: 0.5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    width:470px;
+    background-color: black;
+    color: red;
+    cursor: pointer;
+    opacity: 0.9;
+    box-shadow: 0 0 15px white;
+}
+
+.win{
+    width: 100%;
+    height:100vh;
+    background-image: url("startback.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 90px;
+    font-weight: bold;
+    color: white;
+    font-family: "Times New Roman";
+    visibility: hidden ;
+}
+
+.level{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(190, 190, 190);
+}
+
+.bomb{
+    height: 100px;
+    position: absolute;
+    margin-top: 195px;
+}
+
+.tiger{
+    height: 180px;
+    position: absolute;
+    margin-top: 145px;   
+}
+
+.trap{
+    height: 220px;
+    position: absolute;
+    margin-top: 95px;
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    animation: wipeFadeout 0.8s ease-out forwards;
+  }
+  
+  @keyframes wipeFadeout {
+    0% {
+      background-color: #ffffff;
+      transform: scaleY(1);
+    }
+    100% {
+      background-color: #ffffff;
+      transform: scaleY(0);
+    }
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  .loader-wrapper {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "poppins";
+    background-color: rgb(255, 255, 255);
+    background-image: url(startback.jpg);
+    position: absolute;
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+    overflow-x: hidden;
+    background-repeat: repeat-x;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 0 5px;
+    animation: pulse 0.5s infinite alternate;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+
+.content {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
